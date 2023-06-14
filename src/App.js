@@ -45,8 +45,8 @@ const handleSubmit = (e) => {
 
   return (
     <div className="App">
-      <Header title='Groceries'/>
-      
+      <Header title='To-do'/>
+      <p id='prothom'>Write down your to-do's and remove when its done!</p>
       <AddItem 
         newItem={newItem}
         setNewItem={setNewItem}
